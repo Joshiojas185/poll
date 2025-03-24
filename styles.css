@@ -71,7 +71,7 @@ h1, h2 {
 }
 
 
-#options {
+/* #options {
 flex: 1; 
     display: flex;
     align-items: center;
@@ -90,6 +90,29 @@ display: flex;
 height: 60px;
 align-items: center;
 justify-content: center;
+} */
+
+#options-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+    padding: 10px; /* Optional: Add some padding */
+}
+
+#options {
+    display: inline-flex; /* Use inline-flex to keep items in a row */
+}
+
+.option-button {
+    display: inline-block; /* Ensure buttons are inline */
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 

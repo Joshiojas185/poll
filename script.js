@@ -1,5 +1,5 @@
  
-const socket = io('http://10.31.0.199:5000');
+const socket = io('wss://quizapp-8x5s.onrender.com/');
 
 
 const nameInput = document.getElementById('name-input');

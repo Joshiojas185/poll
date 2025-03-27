@@ -201,7 +201,7 @@ width: 100%;
 
 #header {
     width: 100%; /* Full width */
-    height: 80px; /* Set a fixed height for the header */
+    height: 150px; /* Set a fixed height for the header */
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
